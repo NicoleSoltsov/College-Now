@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
-require("dotenv").config();
+require("dotenv").config({path: "variables.env"});
 mongoose
-  .connect(process.env.MONGO_URI, {})
+  .connect(process.env.DATABASE, {})
   .then(() => console.log("connected to DB"));
 
 mongoose.connection.on("error", (err) => {
