@@ -1,6 +1,6 @@
 const express = require("express");
 const router = new express.Router();
-//users/
+///users/
 router.get("/", (req, res) => {
   try {
     return res.send("User Path");
