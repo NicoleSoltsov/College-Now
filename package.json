@@ -6,10 +6,25 @@
         "dotenv": "^16.4.7",
         "express": "^4.21.2",
         "mongodb": "^6.13.1",
-        "mongoose": "^8.11.0",
+        "mongoose": "^8.12.1",
         "slugify": "^1.6.6"
     },
     "devDependencies": {
         "nodemon": "^3.1.9"
-    }
+    },
+    "name": "csollege-now",
+    "version": "1.0.0",
+    "main": "app.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NicoleSoltsov/College-Now.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/NicoleSoltsov/College-Now/issues"
+    },
+    "homepage": "https://github.com/NicoleSoltsov/College-Now#readme",
+    "description": ""
 }
